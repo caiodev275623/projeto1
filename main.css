@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, nav li,
+a,
+section h2,
+section h3,
+form button {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: normal;
+}
+
+body , input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #860606;
+    color: white;
+    border: solid;
+    border-color: #000000;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#download a {
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#download a {
+    color: #182c61;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.valorant {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 20px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 6px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#social-links .container {
+    display: block ;
+}
+
+.social-links {
+    display: flex;
+justify-content: space-between;
+}
+
+footer {
+    background-color: #860606;
+    color: #ecf0f1 ;
+    width: 100%;
+    padding: 16px 0;
+    position: fixed;
+    bottom:0;
+}
+
+
+section img{
+    max-width: 900px;
+    max-height: 100%;
+}
